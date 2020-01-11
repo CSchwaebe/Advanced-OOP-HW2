@@ -3,13 +3,10 @@ SpreadSheet - first time coding in Swift (Grade: 92%)
 
 Architecture for a spreadsheet (like Excel). Supported operations are +, -, *, / , lg (base 2) and sin. Includes a simple 9 Cell GUI with both equation and value views. Supports Undo.
 
-GOF Design Patterns Used:
-
-Interpreter - Evaluates Postfix Expresssions
-
-Observer - Inter-cell dependencies
-
-Memento - Handles Global State and Undo
+Design Patterns Used:
+1. Interpreter - Evaluates Postfix Expresssions
+2. Observer - Inter-cell dependencies
+3. Memento - Handles Global State and Undo
 
 Original Assigment Instructions:
 
